@@ -1,3 +1,6 @@
+### Simple project without eslint and jest as dependency, created to be used with https://github.com/claudioluciano/lerna-project-template
+The idea of this project is that the eslint, jest and typescript is setup on the root project of your monorepo
+
 # Moleculer template: `project-typescript`
 
   
@@ -19,10 +22,6 @@
 - Optional Transporter & Cacher.
 
 - Docker & Docker Compose files.
-
-- Unit tests with [Jest](http://facebook.github.io/jest/).
-
-- Lint with [Eslint](https://github.com/eslint/eslint) set of rules from [standard](https://github.com/standard/standard).
 
 - Launch file for debugging in [VSCode](https://code.visualstudio.com/).
 
@@ -89,12 +88,6 @@ Create 'moleculer-demo' folder...
 -  `npm start` - Start production mode (set `SERVICES` env variable to load certain services) (previous build needed)
 
 -  `npm run cli`: Start a CLI and connect to production. Don't forget to set production namespace with `--ns` argument in script
-
--  `npm run lint` - Run ESLint
-
--  `npm run ci` - Run continuous test mode with watching
-
--  `npm test` - Run tests & generate coverage report
 
 -  `npm run dc:up`: Start the stack with Docker Compose
 
